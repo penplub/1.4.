@@ -1,0 +1,12 @@
+#Title p{ /*#คือ id*/
+    text-align:center;
+    color:pink;   
+    font-size:4.5em;
+    font-family: 'Big Shoulders Inline Display', cursive;
+ 
+}
+html,body{
+    background:url(https://wallpaperaccess.com/full/1100098.jpg) center no-repeat ;
+    height: 100%;
+    background-size: cover;
+}

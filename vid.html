@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet"href="css/bootstrap.css">
+    <link rel="stylesheet"href="css/st.css"><link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@500&display=swap" rel="stylesheet">
+<title>Simple Map</title>
+<script
+src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxWhl9XOUaCW1dS6
+j-iKUcTKlIHat0Lz0&callback=initMap&libraries=&v=weekly" defer></script>
+<script>
+let map;
+function initMap() {
+map = new
+google.maps.Map(document.getElementById("map"), {
+center: { lat: 13.9122409, lng: 100.5458523 },
+zoom: 17,
+});
+}
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="BLACKPINK - [THE ALBUM] ONLINE FANSIGNING EVENT.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+      
+    <section id="Title">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href= "https://www.blackpinktour.com/"><p>Welcome to BlackPink Campaign click here to go to buy ticket</p></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<div id="map" style="height:500px;width:500px"></div>
+</body>
+</html>
